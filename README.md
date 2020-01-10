@@ -16,6 +16,9 @@ You can change your settings by clicking on the top left corner. Your settings w
 ## Break lines in the CSV file
 Break lines `\n` in the CSV file that are not ment as a CSV line seperator will be misinterpreted. Please make sure you DO NOT HAVE such break lines in your file. 
 
+## Wrong values/names 
+Make sure that you do not have commatas `,` or breaklines `\n` in your data fields, that will result in misinterpretations. 
+
 ## Some statistics does not get calculated
 Make sure that youre source data contains these information and check your settings. 
 
