@@ -173,11 +173,16 @@ if (isset($_POST['csvin'])) {
             foreach ($vals as $entry) {
                 //calc average age
                 if  (in_array("comp_user_geburtsdatum", $header)) {
-                    $date_birth = DateTime::createFromFormat('d.m.Y', $entry["comp_user_geburtsdatum"]);
-                    $date_diff = $date_birth->diff(new DateTime('NOW'));
-                    
-                    $stats['age'] += $date_diff->format("%y");
-                    $stats['age_cnt'] += 1;
+                    try {
+                        $date_birth = DateTime::createFromFormat('d.m.Y', $entry["comp_user_geburtsdatum"]);
+                        $date_diff = $date_birth->diff(new DateTime('NOW'));
+                        
+                        $stats['age'] += $date_diff->format("%y");
+                        $stats['age_cnt'] += 1;
+                    }
+                    catch (Exception $e) {
+                        $error .= "<br> Alter nicht richtig gesetzt, ignoriere dieses Alter. ";
+                    }
                 }
 
                  // total member statistics        
