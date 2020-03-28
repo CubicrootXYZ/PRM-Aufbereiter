@@ -175,10 +175,13 @@ if (isset($_POST['csvin'])) {
                 if  (in_array("comp_user_geburtsdatum", $header)) {
                     try {
                         $date_birth = DateTime::createFromFormat('d.m.Y', $entry["comp_user_geburtsdatum"]);
-                        $date_diff = $date_birth->diff(new DateTime('NOW'));
+                        if ($date_birth != False) {
+                            $date_diff = $date_birth->diff(new DateTime('NOW'));
                         
-                        $stats['age'] += $date_diff->format("%y");
-                        $stats['age_cnt'] += 1;
+                            $stats['age'] += $date_diff->format("%y");
+                            $stats['age_cnt'] += 1;
+                        }
+                        
                     }
                     catch (Exception $e) {
                         $error .= "<br> Alter nicht richtig gesetzt, ignoriere dieses Alter. ";
@@ -210,8 +213,19 @@ if (isset($_POST['csvin'])) {
                 // calc age average per lv
                 if  (in_array($field, $header) && in_array("comp_user_geburtsdatum", $header)) {
                     if  (array_key_exists($entry[$field], $stats[$value]) ) {
-                        $date_birth = DateTime::createFromFormat('d.m.Y', $entry["comp_user_geburtsdatum"]);
-                        $date_diff = $date_birth->diff(new DateTime('NOW'));
+                        try {
+                            $date_birth = DateTime::createFromFormat('d.m.Y', $entry["comp_user_geburtsdatum"]);
+                            if ($date_birth != False) {
+                                $date_diff = $date_birth->diff(new DateTime('NOW'));
+                            
+                                $stats['age'] += $date_diff->format("%y");
+                                $stats['age_cnt'] += 1;
+                            }
+                            
+                        }
+                        catch (Exception $e) {
+                            $error .= "<br> Alter nicht richtig gesetzt, ignoriere dieses Alter. ";
+                        }
                        
                         if (array_key_exists("age", $stats[$value][$entry[$field]])) {
                             $stats[$value][$entry[$field]]['age'] += $date_diff->format("%y");
@@ -219,7 +233,9 @@ if (isset($_POST['csvin'])) {
 
                             
                         } else {
+                            if (isset($date_diff)){
                             $stats[$value][$entry[$field]]['age'] = $date_diff->format("%y");
+                            }
                             $stats[$value][$entry[$field]]['age_cnt'] = 1;
                             
                         }

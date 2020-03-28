@@ -119,3 +119,254 @@
 - 14:45:47.828 DEBUG: OnBrowserDestroyed()
 - 14:45:47.328 INFO: Ended application
 - 14:45:47.328 INFO: --------------------------------------------------------
+- 15:01:49.000 INFO: --------------------------------------------------------
+- 15:01:49.000 INFO: Started application
+- 15:01:49.000 INFO: Logging to: D:\github_repos\PRM-Aufbereiter\debug.log
+- 15:01:49.000 INFO: Log level = DEBUG4
+- 15:01:49.000 INFO: Starting Mongoose 3.9c web server
+- 15:01:49.000 INFO: WWW directory: D:\github_repos\PRM-Aufbereiter\www
+- 15:01:49.000 INFO: Index files: index.html,index.php
+- 15:01:49.000 INFO: CGI interpreter: D:\github_repos\PRM-Aufbereiter\php\php-cgi.exe
+- 15:01:49.000 INFO: CGI pattern: **.php$
+- 15:01:49.000 INFO: Hide files patterns: 
+- 15:01:49.000 INFO: CGI environment variables set: TMP=C:\Users\alexa\AppData\Local\Temp\,TEMP=C:\Users\alexa\AppData\Local\Temp\,TMPDIR=C:\Users\alexa\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 15:01:49.015 INFO: Web server url: http://127.0.0.1:58881/
+- 15:01:49.015 INFO: remote_debugging_port = 50460
+- 15:01:49.015 DEBUG: Command line string for the browser process: "D:\github_repos\PRM-Aufbereiter\PRM-Aufbereiter-START.exe" --no-sandbox --lang=en-US --log-file="D:\github_repos\PRM-Aufbereiter\debug.log" --remote-debugging-port=50460
+- 15:01:49.046 DEBUG: App::OnContextInitialized()
+- 15:01:49.046 DEBUG: Window max width/height = 1840/992
+- 15:01:49.062 DEBUG: GetBrowserWindow(): not found, hwnd = 788838
+- 15:01:49.062 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:01:49.062 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:01:49.062 DEBUG: StoreBrowserWindow(): hwnd = 788838
+- 15:01:49.000 DEBUG: Command line string for the gpu-process process: "D:\github_repos\PRM-Aufbereiter\PRM-Aufbereiter-START.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\github_repos\PRM-Aufbereiter\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x591b --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=21.20.16.4678 --gpu-driver-date=5-17-2017 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x1c8c --lang=en-US --log-file="D:\github_repos\PRM-Aufbereiter\debug.log" --service-request-channel-token=EB43CE4849210A5E7B953C4CE0DBE593 --mojo-platform-channel-handle=1760 /prefetch:2
+- 15:01:49.109 DEBUG: ClientHandler::OnAfterCreated()
+- 15:01:49.109 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:01:49.125 DEBUG: OnLoadingStateChange: loading=1, url=
+[0328/150149.220:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 15:01:49.000 DEBUG: Command line string for the renderer process: "D:\github_repos\PRM-Aufbereiter\PRM-Aufbereiter-START.exe" --type=renderer --no-sandbox --primordial-pipe-token=87FF07F3C935034EAAE3D2A12ACD2A34 --lang=en-US --lang=en-US --log-file="D:\github_repos\PRM-Aufbereiter\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=87FF07F3C935034EAAE3D2A12ACD2A34 --renderer-client-id=3 --mojo-platform-channel-handle=2356 /prefetch:1
+- 15:01:49.047 DEBUG: OnBrowserCreated()
+- 15:01:50.359 INFO: GET 200 /jquery.min.js
+- 15:01:50.359 INFO: GET 200 /
+- 15:01:50.203 DEBUG: OnContextCreated()
+- 15:01:50.437 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58881/
+- 15:01:53.703 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58881/
+- 15:01:53.625 DEBUG: OnContextCreated()
+- 15:01:53.781 INFO: POST 200 /
+- 15:01:53.812 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58881/#
+- 15:02:18.421 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58881/#
+- 15:02:18.390 DEBUG: OnContextCreated()
+- 15:02:18.546 INFO: POST 200 /
+- 15:02:18.562 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58881/#
+- 15:03:13.734 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58881/#
+- 15:03:13.828 INFO: POST 200 /
+- 15:03:14.015 DEBUG: OnContextCreated()
+- 15:03:14.203 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58881/#
+- 15:04:33.609 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58881/#
+- 15:04:33.547 DEBUG: OnContextCreated()
+- 15:04:33.703 INFO: POST 200 /
+- 15:04:33.703 INFO: GET 304 /jquery.min.js
+- 15:04:33.718 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58881/#
+- 15:07:23.328 DEBUG: WM_DESTROY
+- 15:07:23.328 DEBUG: RemoveBrowserWindow(): hwnd = 788838
+- 15:07:23.328 INFO: Stopping Mongoose web server
+- 15:07:23.328 DEBUG: Mongoose webserver stopped immediately
+- 15:07:23.343 DEBUG: OnBeforeClose() hwnd=9308554
+- 15:07:23.343 DEBUG: RemoveBrowserWindow(): hwnd = 9308554
+- 15:07:23.343 DEBUG: GetBrowserWindow(): not found, hwnd = 9308554
+- 15:07:23.343 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:07:23.343 DEBUG: Calling CefQuitMessageLoop()
+- 15:07:23.187 DEBUG: OnBrowserDestroyed()
+- 15:07:23.546 INFO: Ended application
+- 15:07:23.546 INFO: --------------------------------------------------------
+- 15:07:24.000 INFO: --------------------------------------------------------
+- 15:07:24.000 INFO: Started application
+- 15:07:24.000 INFO: Logging to: D:\github_repos\PRM-Aufbereiter\debug.log
+- 15:07:24.000 INFO: Log level = DEBUG4
+- 15:07:24.000 INFO: Starting Mongoose 3.9c web server
+- 15:07:24.000 INFO: WWW directory: D:\github_repos\PRM-Aufbereiter\www
+- 15:07:24.000 INFO: Index files: index.html,index.php
+- 15:07:24.000 INFO: CGI interpreter: D:\github_repos\PRM-Aufbereiter\php\php-cgi.exe
+- 15:07:24.000 INFO: CGI pattern: **.php$
+- 15:07:24.000 INFO: Hide files patterns: 
+- 15:07:24.000 INFO: CGI environment variables set: TMP=C:\Users\alexa\AppData\Local\Temp\,TEMP=C:\Users\alexa\AppData\Local\Temp\,TMPDIR=C:\Users\alexa\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 15:07:24.000 INFO: Web server url: http://127.0.0.1:59151/
+- 15:07:24.000 INFO: remote_debugging_port = 57317
+- 15:07:24.000 DEBUG: Command line string for the browser process: "D:\github_repos\PRM-Aufbereiter\PRM-Aufbereiter-START.exe" --no-sandbox --lang=en-US --log-file="D:\github_repos\PRM-Aufbereiter\debug.log" --remote-debugging-port=57317
+- 15:07:24.062 DEBUG: App::OnContextInitialized()
+- 15:07:24.062 DEBUG: Window max width/height = 1840/992
+- 15:07:24.062 DEBUG: GetBrowserWindow(): not found, hwnd = 2689468
+- 15:07:24.062 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:07:24.062 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:07:24.062 DEBUG: StoreBrowserWindow(): hwnd = 2689468
+- 15:07:24.000 DEBUG: Command line string for the gpu-process process: "D:\github_repos\PRM-Aufbereiter\PRM-Aufbereiter-START.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\github_repos\PRM-Aufbereiter\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x591b --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=21.20.16.4678 --gpu-driver-date=5-17-2017 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x1c8c --lang=en-US --log-file="D:\github_repos\PRM-Aufbereiter\debug.log" --service-request-channel-token=2CFF91ED1E362FEDE60E47E3F0AAB61F --mojo-platform-channel-handle=1772 /prefetch:2
+- 15:07:24.140 DEBUG: ClientHandler::OnAfterCreated()
+- 15:07:24.140 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:07:24.156 DEBUG: OnLoadingStateChange: loading=1, url=
+[0328/150724.638:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 15:07:24.000 DEBUG: Command line string for the renderer process: "D:\github_repos\PRM-Aufbereiter\PRM-Aufbereiter-START.exe" --type=renderer --no-sandbox --primordial-pipe-token=4C4296237CC51142E0A6BA4434222F91 --lang=en-US --lang=en-US --log-file="D:\github_repos\PRM-Aufbereiter\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=4C4296237CC51142E0A6BA4434222F91 --renderer-client-id=3 --mojo-platform-channel-handle=2348 /prefetch:1
+- 15:07:24.047 DEBUG: OnBrowserCreated()
+- 15:07:25.453 INFO: GET 200 /
+- 15:07:25.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:59151/
+- 15:07:42.984 DEBUG: WM_DESTROY
+- 15:07:42.984 DEBUG: RemoveBrowserWindow(): hwnd = 2689468
+- 15:07:42.984 INFO: Stopping Mongoose web server
+- 15:07:42.984 DEBUG: Mongoose webserver stopped immediately
+- 15:07:42.000 DEBUG: OnBeforeClose() hwnd=788906
+- 15:07:42.000 DEBUG: RemoveBrowserWindow(): hwnd = 788906
+- 15:07:42.000 DEBUG: GetBrowserWindow(): not found, hwnd = 788906
+- 15:07:42.000 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:07:42.000 DEBUG: Calling CefQuitMessageLoop()
+- 15:07:42.828 DEBUG: OnBrowserDestroyed()
+- 15:07:42.125 INFO: Ended application
+- 15:07:42.125 INFO: --------------------------------------------------------
+- 15:07:44.000 INFO: --------------------------------------------------------
+- 15:07:44.000 INFO: Started application
+- 15:07:44.000 INFO: Logging to: D:\github_repos\PRM-Aufbereiter\debug.log
+- 15:07:44.000 INFO: Log level = DEBUG4
+- 15:07:44.000 INFO: Starting Mongoose 3.9c web server
+- 15:07:44.000 INFO: WWW directory: D:\github_repos\PRM-Aufbereiter\www
+- 15:07:44.000 INFO: Index files: index.html,index.php
+- 15:07:44.000 INFO: CGI interpreter: D:\github_repos\PRM-Aufbereiter\php\php-cgi.exe
+- 15:07:44.000 INFO: CGI pattern: **.php$
+- 15:07:44.000 INFO: Hide files patterns: 
+- 15:07:44.000 INFO: CGI environment variables set: TMP=C:\Users\alexa\AppData\Local\Temp\,TEMP=C:\Users\alexa\AppData\Local\Temp\,TMPDIR=C:\Users\alexa\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 15:07:44.016 INFO: Web server url: http://127.0.0.1:59172/
+- 15:07:44.016 INFO: remote_debugging_port = 51173
+- 15:07:44.016 DEBUG: Command line string for the browser process: "D:\github_repos\PRM-Aufbereiter\PRM-Aufbereiter-START.exe" --no-sandbox --lang=en-US --log-file="D:\github_repos\PRM-Aufbereiter\debug.log" --remote-debugging-port=51173
+- 15:07:44.047 DEBUG: App::OnContextInitialized()
+- 15:07:44.047 DEBUG: Window max width/height = 1840/992
+- 15:07:44.047 DEBUG: GetBrowserWindow(): not found, hwnd = 2230902
+- 15:07:44.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:07:44.063 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:07:44.063 DEBUG: StoreBrowserWindow(): hwnd = 2230902
+- 15:07:44.000 DEBUG: Command line string for the gpu-process process: "D:\github_repos\PRM-Aufbereiter\PRM-Aufbereiter-START.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\github_repos\PRM-Aufbereiter\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x591b --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=21.20.16.4678 --gpu-driver-date=5-17-2017 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x1c8c --lang=en-US --log-file="D:\github_repos\PRM-Aufbereiter\debug.log" --service-request-channel-token=FE952893EA905620253FDD589937A131 --mojo-platform-channel-handle=1760 /prefetch:2
+- 15:07:44.125 DEBUG: ClientHandler::OnAfterCreated()
+- 15:07:44.125 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:07:44.141 DEBUG: OnLoadingStateChange: loading=1, url=
+[0328/150744.688:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 15:07:44.000 DEBUG: Command line string for the renderer process: "D:\github_repos\PRM-Aufbereiter\PRM-Aufbereiter-START.exe" --type=renderer --no-sandbox --primordial-pipe-token=5FE3234D3BF48846DFF6F7D48B8B6292 --lang=en-US --lang=en-US --log-file="D:\github_repos\PRM-Aufbereiter\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=5FE3234D3BF48846DFF6F7D48B8B6292 --renderer-client-id=3 --mojo-platform-channel-handle=2344 /prefetch:1
+- 15:07:44.047 DEBUG: OnBrowserCreated()
+- 15:07:45.438 INFO: GET 200 /jquery.min.js
+- 15:07:45.438 INFO: GET 200 /
+- 15:07:45.281 DEBUG: OnContextCreated()
+- 15:07:46.516 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:59172/
+- 15:07:48.735 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:59172/
+- 15:07:48.656 DEBUG: OnContextCreated()
+- 15:07:48.828 INFO: POST 200 /
+- 15:07:48.860 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:59172/#
+- 15:07:57.907 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:59172/#
+- 15:07:57.000 INFO: POST 200 /
+- 15:07:57.828 DEBUG: OnContextCreated()
+- 15:07:57.016 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:59172/#
+- 15:08:58.125 DEBUG: WM_DESTROY
+- 15:08:58.125 DEBUG: RemoveBrowserWindow(): hwnd = 2230902
+- 15:08:58.125 INFO: Stopping Mongoose web server
+- 15:08:58.125 DEBUG: Mongoose webserver stopped immediately
+- 15:08:58.141 DEBUG: OnBeforeClose() hwnd=789576
+- 15:08:58.141 DEBUG: RemoveBrowserWindow(): hwnd = 789576
+- 15:08:58.141 DEBUG: GetBrowserWindow(): not found, hwnd = 789576
+- 15:08:58.141 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:08:58.141 DEBUG: Calling CefQuitMessageLoop()
+- 15:08:58.188 INFO: Ended application
+- 15:08:58.188 INFO: --------------------------------------------------------
+- 15:08:59.000 INFO: --------------------------------------------------------
+- 15:08:59.000 INFO: Started application
+- 15:08:59.000 INFO: Logging to: D:\github_repos\PRM-Aufbereiter\debug.log
+- 15:08:59.000 INFO: Log level = DEBUG4
+- 15:08:59.000 INFO: Starting Mongoose 3.9c web server
+- 15:08:59.000 INFO: WWW directory: D:\github_repos\PRM-Aufbereiter\www
+- 15:08:59.000 INFO: Index files: index.html,index.php
+- 15:08:59.000 INFO: CGI interpreter: D:\github_repos\PRM-Aufbereiter\php\php-cgi.exe
+- 15:08:59.000 INFO: CGI pattern: **.php$
+- 15:08:59.000 INFO: Hide files patterns: 
+- 15:08:59.000 INFO: CGI environment variables set: TMP=C:\Users\alexa\AppData\Local\Temp\,TEMP=C:\Users\alexa\AppData\Local\Temp\,TMPDIR=C:\Users\alexa\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 15:08:59.000 INFO: Web server url: http://127.0.0.1:59235/
+- 15:08:59.000 INFO: remote_debugging_port = 57066
+- 15:08:59.000 DEBUG: Command line string for the browser process: "D:\github_repos\PRM-Aufbereiter\PRM-Aufbereiter-START.exe" --no-sandbox --lang=en-US --log-file="D:\github_repos\PRM-Aufbereiter\debug.log" --remote-debugging-port=57066
+- 15:08:59.188 DEBUG: App::OnContextInitialized()
+- 15:08:59.188 DEBUG: Window max width/height = 1840/992
+- 15:08:59.188 DEBUG: GetBrowserWindow(): not found, hwnd = 855112
+- 15:08:59.188 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:08:59.188 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:08:59.188 DEBUG: StoreBrowserWindow(): hwnd = 855112
+- 15:08:59.000 DEBUG: Command line string for the gpu-process process: "D:\github_repos\PRM-Aufbereiter\PRM-Aufbereiter-START.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\github_repos\PRM-Aufbereiter\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x591b --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=21.20.16.4678 --gpu-driver-date=5-17-2017 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x1c8c --lang=en-US --log-file="D:\github_repos\PRM-Aufbereiter\debug.log" --service-request-channel-token=3F75C310D8E0A5F9F82516036C00C32F --mojo-platform-channel-handle=1752 /prefetch:2
+- 15:09:00.281 DEBUG: ClientHandler::OnAfterCreated()
+- 15:09:00.281 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:09:00.313 DEBUG: OnLoadingStateChange: loading=1, url=
+[0328/150900.081:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 15:09:00.000 DEBUG: Command line string for the renderer process: "D:\github_repos\PRM-Aufbereiter\PRM-Aufbereiter-START.exe" --type=renderer --no-sandbox --primordial-pipe-token=B70A7B8868F09E8BF1FF70A20D9E7BFA --lang=en-US --lang=en-US --log-file="D:\github_repos\PRM-Aufbereiter\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=B70A7B8868F09E8BF1FF70A20D9E7BFA --renderer-client-id=3 --mojo-platform-channel-handle=2352 /prefetch:1
+- 15:09:00.047 DEBUG: OnBrowserCreated()
+- 15:09:01.578 INFO: GET 200 /jquery.min.js
+- 15:09:01.578 INFO: GET 200 /
+- 15:09:01.250 DEBUG: OnContextCreated()
+- 15:09:01.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:59235/
+- 15:09:03.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:59235/
+- 15:09:03.734 DEBUG: OnContextCreated()
+- 15:09:03.078 INFO: POST 200 /
+- 15:09:03.109 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:59235/#
+- 15:09:07.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:59235/#
+- 15:09:08.281 INFO: POST 200 /
+- 15:09:08.937 DEBUG: OnContextCreated()
+- 15:09:08.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:59235/#
+- 15:09:59.469 DEBUG: WM_DESTROY
+- 15:09:59.469 DEBUG: RemoveBrowserWindow(): hwnd = 855112
+- 15:09:59.469 INFO: Stopping Mongoose web server
+- 15:09:59.469 DEBUG: Mongoose webserver stopped immediately
+- 15:09:59.484 DEBUG: OnBeforeClose() hwnd=8325548
+- 15:09:59.484 DEBUG: RemoveBrowserWindow(): hwnd = 8325548
+- 15:09:59.484 DEBUG: GetBrowserWindow(): not found, hwnd = 8325548
+- 15:09:59.484 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:09:59.484 DEBUG: Calling CefQuitMessageLoop()
+- 15:09:59.547 INFO: Ended application
+- 15:09:59.547 INFO: --------------------------------------------------------
+- 15:10:00.000 INFO: --------------------------------------------------------
+- 15:10:00.000 INFO: Started application
+- 15:10:00.000 INFO: Logging to: D:\github_repos\PRM-Aufbereiter\debug.log
+- 15:10:00.000 INFO: Log level = DEBUG4
+- 15:10:00.000 INFO: Starting Mongoose 3.9c web server
+- 15:10:00.000 INFO: WWW directory: D:\github_repos\PRM-Aufbereiter\www
+- 15:10:00.000 INFO: Index files: index.html,index.php
+- 15:10:00.000 INFO: CGI interpreter: D:\github_repos\PRM-Aufbereiter\php\php-cgi.exe
+- 15:10:00.000 INFO: CGI pattern: **.php$
+- 15:10:00.000 INFO: Hide files patterns: 
+- 15:10:00.000 INFO: CGI environment variables set: TMP=C:\Users\alexa\AppData\Local\Temp\,TEMP=C:\Users\alexa\AppData\Local\Temp\,TMPDIR=C:\Users\alexa\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 15:10:00.000 INFO: Web server url: http://127.0.0.1:59286/
+- 15:10:00.000 INFO: remote_debugging_port = 63456
+- 15:10:00.000 DEBUG: Command line string for the browser process: "D:\github_repos\PRM-Aufbereiter\PRM-Aufbereiter-START.exe" --no-sandbox --lang=en-US --log-file="D:\github_repos\PRM-Aufbereiter\debug.log" --remote-debugging-port=63456
+- 15:10:00.047 DEBUG: App::OnContextInitialized()
+- 15:10:00.047 DEBUG: Window max width/height = 1840/992
+- 15:10:00.047 DEBUG: GetBrowserWindow(): not found, hwnd = 1313200
+- 15:10:00.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:10:00.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:10:00.047 DEBUG: StoreBrowserWindow(): hwnd = 1313200
+- 15:10:00.000 DEBUG: Command line string for the gpu-process process: "D:\github_repos\PRM-Aufbereiter\PRM-Aufbereiter-START.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\github_repos\PRM-Aufbereiter\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x591b --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=21.20.16.4678 --gpu-driver-date=5-17-2017 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x1c8c --lang=en-US --log-file="D:\github_repos\PRM-Aufbereiter\debug.log" --service-request-channel-token=60699A61C8881CBBEBA2A3B45419DD2B --mojo-platform-channel-handle=1752 /prefetch:2
+- 15:10:00.110 DEBUG: ClientHandler::OnAfterCreated()
+- 15:10:00.110 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:10:00.110 DEBUG: OnLoadingStateChange: loading=1, url=
+[0328/151000.554:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 15:10:00.000 DEBUG: Command line string for the renderer process: "D:\github_repos\PRM-Aufbereiter\PRM-Aufbereiter-START.exe" --type=renderer --no-sandbox --primordial-pipe-token=FED074346EB2B03766B6027A526BDB8A --lang=en-US --lang=en-US --log-file="D:\github_repos\PRM-Aufbereiter\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=FED074346EB2B03766B6027A526BDB8A --renderer-client-id=3 --mojo-platform-channel-handle=2340 /prefetch:1
+- 15:10:00.046 DEBUG: OnBrowserCreated()
+- 15:10:01.375 INFO: GET 200 /jquery.min.js
+- 15:10:01.375 INFO: GET 200 /
+- 15:10:01.234 DEBUG: OnContextCreated()
+- 15:10:01.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:59286/
+- 15:10:03.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:59286/
+- 15:10:03.359 DEBUG: OnContextCreated()
+- 15:10:03.516 INFO: POST 200 /
+- 15:10:03.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:59286/#
+- 15:10:08.703 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:59286/#
+- 15:10:08.782 INFO: POST 200 /
+reated()
+- 15:10:08.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:59286/#
+- 15:10:15.750 DEBUG: WM_DESTROY
+- 15:10:15.750 DEBUG: RemoveBrowserWindow(): hwnd = 1313200
+- 15:10:15.750 INFO: Stopping Mongoose web server
+- 15:10:15.750 DEBUG: Mongoose webserver stopped immediately
+- 15:10:15.750 DEBUG: OnBeforeClose() hwnd=1313118
+- 15:10:15.750 DEBUG: RemoveBrowserWindow(): hwnd = 1313118
+- 15:10:15.750 DEBUG: GetBrowserWindow(): not found, hwnd = 1313118
+- 15:10:15.750 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:10:15.750 DEBUG: Calling CefQuitMessageLoop()
+- 15:10:15.844 INFO: Ended application
+- 15:10:15.844 INFO: --------------------------------------------------------
